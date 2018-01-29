@@ -10,3 +10,16 @@ with [a font of your choice](https://www.w3schools.com/howto/howto_google_fonts.
 to improve default typography readability.
 
 [Check an example](https://oleksiyrudenko.github.io/default-beauty.css/)
+
+Feel free amending whatever you like.
+
+## TODO
+
+Add styling of:
+ - [ ] `input[type=radio]`
+ - [ ] `input[type=checkbox]`
+ - [ ] `input[type=file]`
+ 
+Improve styling of:
+ - [ ] `input[type=<other>]`
+ 
