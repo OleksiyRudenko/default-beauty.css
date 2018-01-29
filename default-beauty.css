@@ -1,0 +1,106 @@
+:root {
+    font-family: Helvetica, "Open Sans", Arial, sans-serif;
+    --color-light:  #f9f9f9;
+    --color-dark:   #333;
+    --color-gray:   #ddd;
+    --color-grayDarker:   #aaa;
+
+    --color-accent:         #428bca;
+    --color-accentFocus: 	#5bc0de;
+
+    --color-blue:   #428bca;
+    --color-red:    #d9534f;
+    --color-green:  #5cb85c;
+    --color-lightBlue: 	#5bc0de;
+
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    flex: 1;
+
+    padding: 0.5rem;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+header, footer {
+    display: flex;
+    flex-flow: row;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    margin: -0.5rem;
+    padding: 1rem 0.5rem;
+}
+
+footer > *:last-child {
+    margin-left: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration-style: dotted;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline solid;
+}
+
+p {
+    text-align: justify;
+}
+
+pre, code {
+    font-family: "Overpass Mono", Courier, monospace;
+    font-size: 0.9em;
+}
+
+/* === Form controls === */
+button, input {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    min-width: 10rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+}
+
+button, input[type=submit], input[type=reset], input[type=button] {
+    cursor: pointer;
+}
+
+input[type=submit], button {
+    color: var(--color-light);
+    background-color: var(--color-accent);
+    border-color: calc(var(--color-accent) * 0.9);
+}
+
+button[type=button], button[type=reset], input[type=reset], input[type=button] {
+    color: var(--color-dark);
+    background-color: var(--color-gray);
+    border-color: calc(var(--color-gray) * 0.9);
+}
+
+button:hover, input:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+    outline: none;
+    border-color: var(--color-accentFocus);
+    box-shadow: 0 0 1rem #66d;
+}
+
+input[type=radio], input[type=checkbox] {
+    min-width: 0.1em;
+}
+
+/* === Grouping === */
+
+fieldset {
+    margin: 0.5rem;
+}
