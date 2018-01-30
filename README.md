@@ -39,6 +39,21 @@ or an extended flavoured variant of `normalize.css` like
 with [a font of your choice](https://www.w3schools.com/howto/howto_google_fonts.asp)
 to improve default typography readability.
 
+It will be a good start to add the following snippet to your web page's `<head>`.
+
+```
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass%20Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/OleksiyRudenko/normalize.css/28e3dc36/normalize.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/OleksiyRudenko/default-beauty.css/482728bd/default-beauty.css">
+```
+
+You may also want to download your own up-to-date copies of the two latter stylesheets
+from [official `normalize.css` repo](https://github.com/necolas/normalize.css) or
+[`normalize.css` fork](https://github.com/OleksiyRudenko/normalize.css),
+and [official `default-beauty.css` repo](https://github.com/OleksiyRudenko/default-beauty.css).
+
 ## Special features
 
 Feel free changing whatever you like.
