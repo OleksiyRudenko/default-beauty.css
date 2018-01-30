@@ -30,12 +30,22 @@ body {
 }
 
 header, footer {
-    display: flex;
-    flex-flow: row;
     background-color: var(--color-dark);
     color: var(--color-light);
     margin: -0.5rem;
     padding: 1rem 0.5rem;
+
+    display: flex;
+    flex-flow: row;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+}
+
+nav > * {
+    margin-right: 2rem;
 }
 
 footer > *:last-child {
