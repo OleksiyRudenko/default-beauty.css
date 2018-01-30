@@ -1,5 +1,7 @@
 # default-beauty.css
 
+[![CSS Variables](https://img.shields.io/badge/CSS-variables-orange.svg)](https://www.w3.org/TR/css-variables-1/)
+
 > Work in Progress
 
  - [ ] Building quick web page/app prototype?
@@ -60,8 +62,26 @@ and [official `default-beauty.css` repo](https://github.com/OleksiyRudenko/defau
 
 Feel free changing whatever you like.
 
+### CSS3 variables
+
+`default-beauty.css` employs
+[CSS variables](https://www.w3.org/TR/css-variables-1/)
+(more on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables))
+with a somewhat not a 100% browser support and therefore may not pass
+[strict validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frawgit.com%2FOleksiyRudenko%2Fdefault-beauty.css%2Fmaster%2Fdefault-beauty.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+Should you face any issues with it, please
+[let me know](https://github.com/OleksiyRudenko/default-beauty.css/issues).
+
+Quick fix:
+1. Download `default-beauty.css` or fork this project
+2. Replace every `var(--...)` with a relevant value from `:root` section
+3. Remove variable definitions from `:root` section
+
+### Page `header` and `footer`
+
 Just add &lt;header&gt; and &lt;footer&gt; elements to have distinctive
-styling of page header and footer.
+styling of your page header and footer.
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
