@@ -1,6 +1,8 @@
 # default-beauty.css
 
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OleksiyRudenko/default-beauty.css/blob/master/LICENSE.md)
 [![CSS Variables](https://img.shields.io/badge/CSS-variables-orange.svg)](https://www.w3.org/TR/css-variables-1/)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#front-end-development)
 
 > Work in Progress
 
