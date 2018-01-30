@@ -22,7 +22,7 @@
 body {
     flex: 1;
 
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: var(--color-light);
     color: var(--color-dark);
     min-height: 100%;
@@ -32,15 +32,16 @@ body {
 header, footer {
     background-color: var(--color-dark);
     color: var(--color-light);
-    margin: -0.5rem;
-    padding: 1rem 0.5rem;
+    margin: -1rem;
+    padding: 1rem;
 
     display: flex;
     flex-flow: row;
 }
 
 main {
-    padding: 1rem 0;
+    margin: -1rem;
+    padding: 1rem;
 }
 
 nav {
