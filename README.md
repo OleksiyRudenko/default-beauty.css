@@ -85,6 +85,10 @@ Quick fix:
 Just add &lt;header&gt; and &lt;footer&gt; elements to have distinctive
 styling of your page header and footer.
 
+Last element in `footer` (and first as well if it is the only element
+in `footer`) floats to the right. If this not what you want
+remove `margin-left: auto;` rule from `footer > *:last-child` ruleset.
+
 [TOC :arrow_double_up: ](#table-of-contents)
 
 ## Credits to the project

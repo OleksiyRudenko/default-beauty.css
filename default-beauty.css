@@ -39,7 +39,7 @@ header, footer {
 }
 
 footer > *:last-child {
-    margin-left: auto;
+    margin-left: auto; /* makes the last (an the first if the only) element in footer floating to the right */
 }
 
 a {
