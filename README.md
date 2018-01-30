@@ -17,10 +17,12 @@ will be of use for you.
 The idea behind is to beautify a bit default styles whenever
 you just cannot pay much efforts to styling yet.
 
+[![default-beauty](image/default-beauty-preview.png)](image/default-beauty-big.png)
+
 [Check an example](https://oleksiyrudenko.github.io/default-beauty.css/).
 
 Note that [index.html](index.html) contains no style or element class definitions
-(with exception of pre-formatted block content).
+(with exception of pre-formatted block contents).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
