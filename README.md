@@ -93,4 +93,8 @@ Any suggestions? Please, do not hesitate submitting
 
 ## Credits
 
+This project wouldn't have ever happened without [Kottans](https://github.com/kottans)
+
+![Kottans logo](https://avatars0.githubusercontent.com/u/6013442?s=200&v=4)
+
 [TOC :arrow_double_up: ](#table-of-contents)
