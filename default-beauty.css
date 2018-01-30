@@ -39,6 +39,10 @@ header, footer {
     flex-flow: row;
 }
 
+main {
+    padding: 1rem 0;
+}
+
 nav {
     display: flex;
     flex-flow: row;
