@@ -20,7 +20,8 @@ Note that [index.html](index.html) contains no style or element class definition
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
+<small>*generated with [DocToc](https://github.com/thlorenz/doctoc)*</small>
 
 - [default-beauty.css](#default-beautycss)
   - [Installation](#installation)
