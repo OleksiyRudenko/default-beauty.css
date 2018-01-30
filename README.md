@@ -86,6 +86,10 @@ Quick fix:
 Just add &lt;header&gt; and &lt;footer&gt; elements to have distinctive
 styling of your page header and footer.
 
+Both `header` and `footer` are
+[flex boxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+with `flex-flow: row`.
+
 Last element in `footer` (and first as well if it is the only element
 in `footer`) floats to the right. If this not what you want
 remove `margin-left: auto;` rule from `footer > *:last-child` ruleset.
