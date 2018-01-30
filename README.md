@@ -94,6 +94,14 @@ Last element in `footer` (and first as well if it is the only element
 in `footer`) floats to the right. If this not what you want
 remove `margin-left: auto;` rule from `footer > *:last-child` ruleset.
 
+### `nav` element
+
+`nav` is a
+[flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+with `flex-flow: row`.
+
+Every it's direct child assigned a `margin-right`.
+
 [TOC :arrow_double_up: ](#table-of-contents)
 
 ## Credits to the project
