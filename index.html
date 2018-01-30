@@ -11,14 +11,17 @@
     <link rel="stylesheet" href="default-beauty.css">
 </head>
 <body>
-<header>
+<header id="header-element">
     <nav>
         <a href="./">Home</a>
+        <a href="#" title="Switch structural elements to divs" onclick="switchStructuralElementsToDivAndBackAgain();">
+            <code>&lt;header/main/footer&gt;</code> &lt;=&gt; <code>&lt;div&gt;</code>
+        </a>
         <a href="#" id="stylesheets-off" onclick="switchStyling();switchStylesheetControls();">Turn stylesheets off</a>
         <a href="#" id="stylesheets-on" onclick="switchStyling();switchStylesheetControls();"><strong>My eyes are bleeding! Bring the beauty back!</strong></a>
     </nav>
 </header>
-<main>
+<main id="main-element">
     <h1>Header 1</h1>
     <p>Paragraph: Lorem ipsum dolor sit amet, <a href="https://www.lipsum.com/" target="_blank">consectetur adipiscing elit</a>.
         Donec semper facilisis vehicula. Proin ex elit, porta sit amet rutrum non, bibendum non nibh.
@@ -78,7 +81,7 @@
         </div>
     </fieldset>
 </main>
-<footer>
+<footer id="footer-element">
     <address>
         Beauty House<br/>
         Css Lane, 3<br/>
@@ -96,9 +99,13 @@
     </p>
 </footer>
 <script>
-  let elSSswitch = [];
+  const structuralElementsIds = [
+    'header',
+    'main',
+    'footer'
+  ];
   document.addEventListener("DOMContentLoaded", function(event) {
-    elSSswitch = [document.getElementById('stylesheets-off'), document.getElementById('stylesheets-on')];
+    const elSSswitch = [document.getElementById('stylesheets-off'), document.getElementById('stylesheets-on')];
     elSSswitch[0].style.cursor = 'pointer';
     elSSswitch[1].style.display = 'none';
   });
@@ -113,8 +120,29 @@
   }
 
   function switchStylesheetControls() {
+    const elSSswitch = [document.getElementById('stylesheets-off'), document.getElementById('stylesheets-on')];
     elSSswitch.forEach(el => {
       el.style.display = el.style.display === 'none' ? 'inline-block' : 'none';
+    });
+  }
+
+  function switchStructuralElementsToDivAndBackAgain() {
+    const els = structuralElementsIds.map(elId => {
+      return document.getElementById(elId + '-element');
+    });
+    els.forEach(el => {
+      const elType = el.id.split('-')[0];
+      // create new element
+      const newElement = document.createElement(el.tagName === 'DIV' ? elType : 'DIV');
+      // copy contents of old element
+      newElement.innerHTML = el.innerHTML;
+
+      // remove old element
+      el.remove();
+      // assign id to the new element
+      newElement.id = elType + '-element';
+      // append new element
+      document.body.appendChild(newElement);
     });
   }
 </script>
