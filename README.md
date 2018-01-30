@@ -38,16 +38,9 @@ of your beautified page.
 </a>
 ```
 
-Any suggestions? Please, do not hesitate submitting
-[an issue](https://github.com/OleksiyRudenko/default-beauty.css/issues).
-
 ## TODO
 
-Add styling of:
- - [ ] `input[type=radio]`
- - [ ] `input[type=checkbox]`
- - [ ] `input[type=file]`
- 
-Improve styling of:
- - [ ] `input[type=<other>]`
- 
+Check [project issues](https://github.com/OleksiyRudenko/default-beauty.css/issues).
+
+Any suggestions? Please, do not hesitate submitting
+[an issue](https://github.com/OleksiyRudenko/default-beauty.css/issues).
