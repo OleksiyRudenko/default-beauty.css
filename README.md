@@ -71,14 +71,27 @@ If you like this project, please, add the following somewhere in the bottom
 of your beautified page.
 
 ```
-<a href="https://github.com/OleksiyRudenko/default-beauty.css">
-    Styled with <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
-</a>
+    <p><small>
+        Styled with
+        <a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
+            <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
+        </a>
+        and
+        <a href="https://github.com/OleksiyRudenko/normalize.css" target="_blank">
+            normalize.css fork <i class="fab fa-github-square"></i>
+        </a>
+    </small></p>
 ```
 
-It will look like this: <a href="https://github.com/OleksiyRudenko/default-beauty.css">
-Styled with <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
-</a> , but more pleasant.
+It will look like this:
+**Styled with
+<a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
+    <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
+</a>
+and
+<a href="https://github.com/OleksiyRudenko/normalize.css" target="_blank">
+    normalize.css fork <i class="fab fa-github-square"></i>
+</a>**, but more pleasantly.
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
