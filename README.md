@@ -25,13 +25,14 @@ Note that [index.html](index.html) contains no style or element class definition
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
-<small>*generated with [DocToc](https://github.com/thlorenz/doctoc)*</small>
 
-  - [Installation](#installation)
-  - [Special features](#special-features)
-  - [Credits to the project](#credits-to-the-project)
-  - [TODO](#todo)
-  - [Credits](#credits)
+- [Installation](#installation)
+- [Special features](#special-features)
+  - [CSS3 variables](#css3-variables)
+  - [Page `header` and `footer`](#page-header-and-footer)
+- [Credits to the project](#credits-to-the-project)
+- [TODO](#todo)
+- [Credits](#credits)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
