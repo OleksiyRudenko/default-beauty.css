@@ -13,7 +13,9 @@
 <body>
 <header>
     <nav>
-        <a href="#">Home</a>
+        <a href="./">Home</a>
+        <a href="#" id="stylesheets-off" onclick="switchStyling();switchStylesheetControls();">Turn stylesheets off</a>
+        <a href="#" id="stylesheets-on" onclick="switchStyling();switchStylesheetControls();"><strong>My eyes are bleeding! Bring the beauty back!</strong></a>
     </nav>
 </header>
 <main>
@@ -93,5 +95,28 @@
         </a></small>
     </p>
 </footer>
+<script>
+  let elSSswitch = [];
+  document.addEventListener("DOMContentLoaded", function(event) {
+    elSSswitch = [document.getElementById('stylesheets-off'), document.getElementById('stylesheets-on')];
+    elSSswitch[0].style.cursor = 'pointer';
+    elSSswitch[1].style.display = 'none';
+  });
+
+  function switchStyling() {
+    const stylesheets = document.querySelectorAll('[rel="stylesheet"]');
+    let stylesheet = [];
+    for (let item of stylesheets) {
+      stylesheet.push(item.sheet || item.styleSheet); // IE compatibility
+    }
+    stylesheet.forEach(item => { item.disabled = ! item.disabled});
+  }
+
+  function switchStylesheetControls() {
+    elSSswitch.forEach(el => {
+      el.style.display = el.style.display === 'none' ? 'inline-block' : 'none';
+    });
+  }
+</script>
 </body>
 </html>
