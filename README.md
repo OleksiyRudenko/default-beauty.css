@@ -23,7 +23,6 @@ Note that [index.html](index.html) contains no style or element class definition
 **Table of Contents**
 <small>*generated with [DocToc](https://github.com/thlorenz/doctoc)*</small>
 
-- [default-beauty.css](#default-beautycss)
   - [Installation](#installation)
   - [Special features](#special-features)
   - [Credits to the project](#credits-to-the-project)
@@ -55,12 +54,16 @@ from [official `normalize.css` repo](https://github.com/necolas/normalize.css) o
 [`normalize.css` fork](https://github.com/OleksiyRudenko/normalize.css),
 and [official `default-beauty.css` repo](https://github.com/OleksiyRudenko/default-beauty.css).
 
+[TOC :arrow_double_up: ](#table-of-contents)
+
 ## Special features
 
 Feel free changing whatever you like.
 
 Just add &lt;header&gt; and &lt;footer&gt; elements to have distinctive
 styling of page header and footer.
+
+[TOC :arrow_double_up: ](#table-of-contents)
 
 ## Credits to the project
 
@@ -77,6 +80,8 @@ It will look like this: <a href="https://github.com/OleksiyRudenko/default-beaut
 Styled with <i class="fas fa-heart"></i> Default-Beuaty.css <i class="fab fa-github-square"></i>
 </a> , but more pleasant.
 
+[TOC :arrow_double_up: ](#table-of-contents)
+
 ## TODO
 
 Check [project issues](https://github.com/OleksiyRudenko/default-beauty.css/issues).
@@ -84,4 +89,8 @@ Check [project issues](https://github.com/OleksiyRudenko/default-beauty.css/issu
 Any suggestions? Please, do not hesitate submitting
 [an issue](https://github.com/OleksiyRudenko/default-beauty.css/issues).
 
+[TOC :arrow_double_up: ](#table-of-contents)
+
 ## Credits
+
+[TOC :arrow_double_up: ](#table-of-contents)
