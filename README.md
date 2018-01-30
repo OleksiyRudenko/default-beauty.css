@@ -72,12 +72,12 @@ of your beautified page.
 
 ```
 <a href="https://github.com/OleksiyRudenko/default-beauty.css">
-    Styled with <i class="fas fa-heart"></i> Default-Beuaty.css <i class="fab fa-github-square"></i>
+    Styled with <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
 </a>
 ```
 
 It will look like this: <a href="https://github.com/OleksiyRudenko/default-beauty.css">
-Styled with <i class="fas fa-heart"></i> Default-Beuaty.css <i class="fab fa-github-square"></i>
+Styled with <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
 </a> , but more pleasant.
 
 [TOC :arrow_double_up: ](#table-of-contents)
