@@ -32,6 +32,7 @@ Note that [index.html](index.html) contains no style or element class definition
 - [Special features](#special-features)
   - [CSS3 variables](#css3-variables)
   - [Page `header` and `footer`](#page-header-and-footer)
+  - [`nav` element](#nav-element)
 - [Credits to the project](#credits-to-the-project)
 - [TODO](#todo)
 - [Credits](#credits)
