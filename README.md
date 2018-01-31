@@ -125,7 +125,7 @@ of your beautified page.
     </small></p>
 ```
 
-It will look like this:
+It will look like this (but beautified):
 **Styled with
 <a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
     <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
@@ -133,7 +133,7 @@ It will look like this:
 and
 <a href="https://github.com/OleksiyRudenko/normalize.css" target="_blank">
     normalize.css fork <i class="fab fa-github-square"></i>
-</a>**, but more pleasantly.
+</a>**
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
