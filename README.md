@@ -103,7 +103,7 @@ remove `margin-left: auto;` rule from `footer > *:last-child` ruleset.
 [flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 with `flex-flow: row`.
 
-Every it's direct child assigned a `margin-right`.
+Every its direct child assigned a `margin-right`.
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
