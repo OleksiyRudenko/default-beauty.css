@@ -33,6 +33,7 @@ Note that [index.html](index.html) contains no style or element class definition
   - [CSS3 variables](#css3-variables)
   - [Page `header` and `footer`](#page-header-and-footer)
   - [`nav` element](#nav-element)
+  - [`button` element](#button-element)
 - [Credits to the project](#credits-to-the-project)
 - [TODO](#todo)
 - [Credits](#credits)
@@ -104,6 +105,14 @@ remove `margin-left: auto;` rule from `footer > *:last-child` ruleset.
 with `flex-flow: row`.
 
 Every it's direct child assigned a `margin-right`.
+
+[TOC :arrow_double_up: ](#table-of-contents)
+
+### `button` element
+
+TODO: Stylize element following
+[Styling buttons, the right way by](https://fvsch.com/code/styling-buttons/)
+guidelines by [Florens Verschelde](https://github.com/fvsch)
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
