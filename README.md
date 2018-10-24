@@ -53,8 +53,8 @@ It will be a good start to add the following snippet to your web page's `<head>`
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass%20Mono">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/OleksiyRudenko/normalize.css/28e3dc36/normalize.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/OleksiyRudenko/default-beauty.css/10af88bf/default-beauty.css">
+    <link rel="stylesheet" href="https://oleksiyrudenko.github.io/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://oleksiyrudenko.github.io/default-beauty.css/default-beauty.css">
 ```
 
 You may also want to download your own up-to-date copies of the two latter stylesheets
