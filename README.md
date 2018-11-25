@@ -26,7 +26,7 @@ Note that [index.html](index.html) contains no style or element class definition
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Table of Contents
 
 - [Installation](#installation)
 - [Special features](#special-features)
@@ -53,14 +53,19 @@ It will be a good start to add the following snippet to your web page's `<head>`
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass%20Mono">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
-    <link rel="stylesheet" href="https://oleksiyrudenko.github.io/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="https://oleksiyrudenko.github.io/default-beauty.css/default-beauty.css">
 ```
 
 You may also want to download your own up-to-date copies of the two latter stylesheets
-from [official `normalize.css` repo](https://github.com/necolas/normalize.css) or
-[`normalize.css` fork](https://github.com/OleksiyRudenko/normalize.css),
+from [official `normalize.css` repo](https://github.com/necolas/normalize.css)
 and [official `default-beauty.css` repo](https://github.com/OleksiyRudenko/default-beauty.css).
+
+Other sources:
+ * [npm](https://www.npmjs.com/package/default-beauty.css)
+ * [yarnpkg](https://yarnpkg.com/en/package/default-beauty.css)
+ * [unpkg](https://unpkg.com/default-beauty.css@0.9.0/)
+ * [jsDelivr](https://cdn.jsdelivr.net/npm/default-beauty.css@0.9.0/)
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
@@ -114,26 +119,26 @@ of your beautified page.
 
 ```
     <p><small>
-        Styled with
-        <a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
-            <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
-        </a>
-        and
-        <a href="https://github.com/OleksiyRudenko/normalize.css" target="_blank">
-            normalize.css fork <i class="fab fa-github-square"></i>
-        </a>
-    </small></p>
+       Styled with
+       <a href="https://github.com/necolas/normalize.css" target="_blank">
+           normalize.css <i class="fab fa-github-square"></i>
+       </a>
+       and
+       <a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
+           <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
+       </a>
+   </small></p>
 ```
 
 It will look like this (but beautified):
 **Styled with
-<a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
-    <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
-</a>
-and
-<a href="https://github.com/OleksiyRudenko/normalize.css" target="_blank">
-    normalize.css fork <i class="fab fa-github-square"></i>
-</a>**
+ <a href="https://github.com/necolas/normalize.css" target="_blank">
+     normalize.css <i class="fab fa-github-square"></i>
+ </a>
+ and
+ <a href="https://github.com/OleksiyRudenko/default-beauty.css" target="_blank">
+     <i class="fas fa-heart"></i> Default-Beauty.css <i class="fab fa-github-square"></i>
+ </a>**
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
@@ -141,14 +146,15 @@ and
 
 Check [project issues](https://github.com/OleksiyRudenko/default-beauty.css/issues).
 
-Any suggestions? Please, do not hesitate submitting
-[an issue](https://github.com/OleksiyRudenko/default-beauty.css/issues).
+Any suggestions or bugs? Please, check
+[notes on contribution](https://github.com/OleksiyRudenko/default-beauty.css/blob/master/CONTRIBUTING.md).
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
 ## Credits
 
-This project wouldn't have ever happened without [Kottans](https://github.com/kottans)
+This project wouldn't have ever happened without
+[Kottans](https://github.com/kottans)
 
 ![Kottans logo](https://avatars0.githubusercontent.com/u/6013442?s=200&v=4)
 
