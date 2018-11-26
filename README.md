@@ -2,9 +2,6 @@
 
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/OleksiyRudenko/default-beauty.css/blob/master/LICENSE.md)
 [![CSS Variables](https://img.shields.io/badge/CSS-variables-orange.svg)](https://www.w3.org/TR/css-variables-1/)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#front-end-development)
-
-> Work in Progress
 
  - [ ] Building quick web page/app prototype?
  - [ ] Want to see anything more pleasant than default
@@ -15,7 +12,7 @@ If anything above is what you would tick then this project
 will be of use for you.
 
 The idea behind is to beautify a bit default styles whenever
-you just cannot pay much efforts to styling yet.
+you just cannot (or just do not want to) pay much efforts to styling yet.
 
 [![default-beauty](image/default-beauty-preview.png)](image/default-beauty-big.png)
 
@@ -29,10 +26,12 @@ Note that [index.html](index.html) contains no style or element class definition
 ## Table of Contents
 
 - [Installation](#installation)
+  - [Installation options](#installation-options)
+  - [Fonts](#fonts)
 - [Special features](#special-features)
   - [CSS3 variables](#css3-variables)
-  - [Page `header` and `footer`](#page-header-and-footer)
-  - [`nav` element](#nav-element)
+  - [Page `<header>` and `<footer>`](#page-header-and-footer)
+  - [`<nav>` element](#nav-element)
 - [Credits to the project](#credits-to-the-project)
 - [TODO](#todo)
 - [Credits](#credits)
@@ -42,30 +41,32 @@ Note that [index.html](index.html) contains no style or element class definition
 ## Installation
 
 Tastes best with [`normalize.css`](https://github.com/necolas/normalize.css)
-or an extended flavoured variant of `normalize.css` like
-[this one](https://github.com/OleksiyRudenko/normalize.css), and
-with [a font of your choice](https://www.w3schools.com/howto/howto_google_fonts.asp)
+and with
+[a font of your choice](https://fonts.google.com/)
 to improve default typography readability.
 
-It will be a good start to add the following snippet to your web page's `<head>`.
+### Installation options
+
+Use either of the methods:
+ 1. NPM: `npm install --save normalize.css && npm install --save default-beauty.css`
+    or `yarn add normalize.css && yarn add default-beauty.css`
+ 1. Use a CDN of your choice to include
+    [normalize.css](https://yarnpkg.com/en/package/normalize.css) and
+    [default-beauty.css](https://yarnpkg.com/en/package/default-beauty.css)
+ 1. Download latest releases of
+    [normalize.css](https://necolas.github.io/normalize.css/latest/normalize.css) and
+    [default-beauty.css](https://github.com/OleksiyRudenko/default-beauty.css/releases)
+
+### Fonts
+
+You may find the following snippet sufficient to start with.
+Just add it to your web page's `<head>` to have a bit better typography right off.
 
 ```
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass%20Mono">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
-    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://oleksiyrudenko.github.io/default-beauty.css/default-beauty.css">
 ```
-
-You may also want to download your own up-to-date copies of the two latter stylesheets
-from [official `normalize.css` repo](https://github.com/necolas/normalize.css)
-and [official `default-beauty.css` repo](https://github.com/OleksiyRudenko/default-beauty.css).
-
-Other sources:
- * [npm](https://www.npmjs.com/package/default-beauty.css)
- * [yarnpkg](https://yarnpkg.com/en/package/default-beauty.css)
- * [unpkg](https://unpkg.com/default-beauty.css@0.9.0/)
- * [jsDelivr](https://cdn.jsdelivr.net/npm/default-beauty.css@0.9.0/)
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
@@ -89,32 +90,34 @@ Quick fix:
 2. Replace every `var(--...)` with a relevant value from `:root` section
 3. Remove variable definitions from `:root` section
 
-### Page `header` and `footer`
+### Page `<header>` and `<footer>`
 
 Just add &lt;header&gt; and &lt;footer&gt; elements to have distinctive
 styling of your page header and footer.
 
-Both `header` and `footer` are
+Both `<header>` and `<footer>` are
 [flex boxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 with `flex-flow: row`.
 
-Last element in `footer` (and first as well if it is the only element
-in `footer`) floats to the right. If this not what you want
+Last element in the `<footer>` (and first as well if it is the only element
+in the `<footer>`) floats to the right. If this not what you want
 remove `margin-left: auto;` rule from `footer > *:last-child` ruleset.
 
-### `nav` element
+### `<nav>` element
 
-`nav` is a
+`<nav>` is a
 [flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 with `flex-flow: row`.
 
-Every its direct child assigned a `margin-right`.
+Every its direct child is assigned a `margin-right`.
 
 [TOC :arrow_double_up: ](#table-of-contents)
 
 ## Credits to the project
 
-If you like this project, please, add the following somewhere in the bottom
+If you like this project, please, give it a :star: on
+[github](https://github.com/OleksiyRudenko/default-beauty.css)
+and/or add the following somewhere in the bottom
 of your beautified page.
 
 ```
@@ -154,8 +157,6 @@ Any suggestions or bugs? Please, check
 ## Credits
 
 This project wouldn't have ever happened without
-[Kottans](https://github.com/kottans)
-
-![Kottans logo](https://avatars0.githubusercontent.com/u/6013442?s=200&v=4)
+[![Kottans](https://img.shields.io/badge/%3D(%5E.%5E)%3D-Kottans-lightgrey.svg)](https://github.com/kottans)
 
 [TOC :arrow_double_up: ](#table-of-contents)

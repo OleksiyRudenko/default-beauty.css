@@ -1,7 +1,7 @@
 {
   "name": "default-beauty.css",
-  "version": "0.9.0",
-  "description": "A replacement for browsers' default styling",
+  "version": "0.9.1",
+  "description": "An implicit replacement for browsers' default styling",
   "main": "default-beauty.css",
   "style": "default-beauty.css",
   "private": false,
