@@ -14,6 +14,8 @@ will be of use for you.
 The idea behind is to beautify a bit default styles whenever
 you just cannot (or just do not want to) pay much efforts to styling yet.
 
+Not really beautiful but rather anything you might live with for a while.
+
 [![default-beauty](image/default-beauty-preview.png)](image/default-beauty-big.png)
 
 [Check live demo](https://oleksiyrudenko.github.io/default-beauty.css/).
