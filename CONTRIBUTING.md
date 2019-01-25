@@ -205,6 +205,7 @@ backwards-compatible and will result in a new **patch** release.
 Check the following:
  * [Publish your own NPM package](https://hackernoon.com/publish-your-own-npm-package-946b19df577e)
  * [flexdinesh/npm-module-boilerplate@github](https://github.com/flexdinesh/npm-module-boilerplate/blob/master/package.json)
+ * [Git URLs as Dependecies](https://docs.npmjs.com/files/package.json#git-urls-as-dependencies)
 
 Publishing actions:
  * `npm login && npm publish --access public`
